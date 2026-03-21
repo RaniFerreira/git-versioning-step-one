@@ -1,0 +1,11 @@
+git init: inicia um repositório Git na pasta
+
+git status: mostra o estado dos arquivos (modificados, novos, prontos para commit)
+
+git add nome-do-arquivo: adiciona um arquivo específico
+
+git add .: adiciona todos os arquivos modificados
+
+git commit: salva as alterações no histórico do repositório
+
+git commit -m "mensagem": cria um commit com descrição
