@@ -9,3 +9,11 @@ git add .: adiciona todos os arquivos modificados
 git commit: salva as alterações no histórico do repositório
 
 git commit -m "mensagem": cria um commit com descrição
+
+git push: envia os commits locais para o repositório remoto (como o GitHub)
+
+git push origin nome-da-branch: envia os commits de uma branch específica para o repositório remoto
+
+git push -u origin nome-da-branch: envia a branch e já cria um vínculo com o repositório remoto (assim você não precisa escrever tudo nas próximas vezes)
+
+git push --force: força o envio dos commits, sobrescrevendo o histórico remoto (usar com cuidado)
